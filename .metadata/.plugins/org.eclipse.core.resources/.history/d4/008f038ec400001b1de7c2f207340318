@@ -1,0 +1,17 @@
+package io.javabrains.moviecatalogservice.resources;
+
+import java.util.Collections;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import io.javabrains.moviecatalogservice.resources.models.CatalogItem;
+
+@RestController
+public class MovieCatalogResource {
+	public List<CatalogItem> getCatalog(String userId){
+		
+		return Collections.singletonList( new CatalogItem( "transformer",  "test", 4));
+	}
+
+}

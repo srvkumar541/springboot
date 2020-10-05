@@ -1,0 +1,23 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class list {
+
+	public static void main(String[] args) {
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        int i = 0;
+        System.out.println("enter the length of array");
+        Scanner sc = new Scanner(System.in);
+        int len = sc.nextInt();
+        System.out.println("enter array elements");
+        while(i < len){
+            Scanner val = new Scanner(System.in);
+            int j = val.nextInt();
+            arr.add(j);
+        }
+        System.out.println(arr);
+	}
+
+}

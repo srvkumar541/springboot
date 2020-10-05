@@ -1,0 +1,14 @@
+package io.javabrains.moviecatalogservice;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import io.javabrains.moviecatalogservice.models.CatalogItem;
+
+@RestController
+public class MovieCatalogResource {
+	
+	public List<CatalogItem> getCatalog(String userId){
+		
+	}
+
+}

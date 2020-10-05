@@ -1,0 +1,38 @@
+package practice;
+
+import java.util.*;
+
+public class Comparing_List {
+
+	public static void main(String[] args) {
+	     // Creating a list 
+        List<Integer> l1 
+            = new ArrayList<Integer>(); 
+  
+        // Adds 1 at 0 index 
+        l1.add(0, 1); 
+  
+        // Adds 2 at 1 index 
+        l1.add(1, 2);
+        l1.add(1);
+        System.out.println(l1); 
+  
+        // Creating another list 
+        List<Integer> l2 
+            = new ArrayList<Integer>(); 
+  
+        l2.add(1); 
+        l2.add(2); 
+        l2.add(3); 
+  
+        for(int i =0 ; i<2 ; i++) {
+        	if (l1.get(i)>l2.get(i)) {
+        		System.out.println("got");
+        	}else {
+        		System.out.println("sorry");
+        	}
+        }
+    }
+	}
+
+

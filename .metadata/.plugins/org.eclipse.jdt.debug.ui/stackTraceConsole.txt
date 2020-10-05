@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	SpringApplication cannot be resolved
+
+	at com.example.demo.FirstProjectApplication.main(FirstProjectApplication.java:10)
